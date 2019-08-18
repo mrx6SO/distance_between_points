@@ -14,7 +14,7 @@ y_=input() # 1
 
 # dAB = \/(x1-x2)^2 + (y1 - y2) ^2 
 
-result = (math.sqrt(x-y)**2 + (x_-y_)**2)
+result = math.sqrt(x-y)**2 + (x_-y_)**2
 
 result_ = math.sqrt(result) 
 
