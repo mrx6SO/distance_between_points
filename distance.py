@@ -10,7 +10,7 @@ y=input() # 1
 x_=input() # 4 
 y_=input() # 1 
 
-# Fórmula usada para estabelecer entre dois pontos distintos. (x1,x2) e (y1,y2)
+# Fórmula usada para estabelecer a distância entre dois pertencentes a um mesmo plano euclidiano (x1,x2) e (y1,y2)
 
 # dAB = \/(x1-x2)^2 + (y1 - y2) ^2 
 
