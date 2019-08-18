@@ -15,7 +15,6 @@ def distance_betw_point():
             
         print result_ 
         
-	
 def verify_space_dimensional():
 	
   # compare the vectors to assign the dimension that's been worked out 
@@ -23,9 +22,9 @@ def verify_space_dimensional():
   
 	space_bi_dim = (x,y) != (y_,x_)
 	
-	print space_bi_dim 
+	print space_bi_dim # will be alwats true... will be changed soon.
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     
     x=input() # 1 
     y=input() # 1 
