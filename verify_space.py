@@ -4,6 +4,8 @@
 
 import math, random
 
+# Função para calcular distância entre dois pontos em um espaço Euclidiano bi-dimensional.
+
 def distance_betw_point():
 
 
@@ -13,6 +15,7 @@ def distance_betw_point():
             
         print result_ 
         
+	
 def verify_space_dimensional():
 	
   # compare the vectors to assign the dimension that's been worked out 
