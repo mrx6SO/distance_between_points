@@ -9,6 +9,6 @@ y=input()
 x_=input()
 y_=input()
     
-result = math.sqrt(2)(x-y) + (x_-y_))
+result = math.sqrt(x-y)**2 + (x_-y_)**2
 
 print result 
