@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- 
 
 import math
+import numpy as np
 
 def check_vector():
 
@@ -35,13 +36,33 @@ def vector_uni():
     print vector_u
 
 
+def distance_betw_point():
+
+
+    result = math.sqrt(a-b)**2 + (c-d)**2
+
+    result_ = math.sqrt(result) 
+            
+    print result_ 
+
+
 def build_basic_vec():
 
     '''
       v = (1,0) 
     '''
+    print "v = ", (a,b)
+    print "w = ", (c,d)
 
-    print "v =", (c,d)
+def sum_of_vect():
+
+    '''
+       v + w = (a+c,b+d)
+    '''
+
+    vect_sum = (a+c,b+d)
+
+    print vect_sum 
 
 if __name__ == "__main__":
 
@@ -57,6 +78,7 @@ if __name__ == "__main__":
 
     vector_uni()
 
-    build_vec()
-    
-# TODO: scalar product.     
+    distance_betw_point()
+    build_basic_vec()
+
+    sum_of_vect()
