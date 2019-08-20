@@ -1,6 +1,6 @@
 #!/usr/bin julia
 
-function vect()
+function vect(a,b)
        
            return b :: Int64 - a :: Int64  
       
